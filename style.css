@@ -1,0 +1,171 @@
+:root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: ;
+  background-color: var(--Almost-White);
+  color: var(--Almost-Black);
+}
+.container {
+  background-image: url(/images/image-hero-desktop.png);
+  background-size: 28%;
+  background-repeat: no-repeat;
+  background-position: 90% 80%;
+}
+.logo {
+  display: inline-block;
+  height: 25%;
+}
+.allNav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 25px;
+}
+.wrapper {
+  display: flex;
+  /* margin-left: 35px; */
+}
+
+.nav-list {
+  display: flex;
+  margin-left: 35px;
+}
+.outter-wrapper {
+  display: flex;
+  position: relative;
+  left: -99px;
+}
+
+.inner-wrapper {
+  display: flex;
+}
+.inner-wrapper .links:nth-of-type(2) {
+  border: 1px solid var(--Almost-Black);
+  display: inline-block;
+  border-radius: 16px;
+  height: fit-content;
+  padding: ;
+}
+
+.q-ans.two h5 {
+  position: relative;
+  left: -48px;
+}
+.links a {
+  margin: 0 1.6rem;
+  text-decoration: none;
+  color: var(--Almost-Black);
+}
+.drop-asnwer {
+  font-size: 13px;
+  padding: 7px 7px;
+}
+.answer-title {
+  border: 1px solid hsl(0, 0%, 90%);
+  border-radius: 7%;
+  box-shadow: 5px 1px 1px 1px hsl(0, 0%, 95%);
+  margin-right: 2rem;
+  padding: 5px 20px;
+  position: relative;
+  left: -45px;
+}
+article {
+  margin-left: 6.8rem;
+  position: relative;
+  top: -60px;
+}
+article h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  line-height: 3.2rem;
+}
+article p {
+  position: relative;
+  top: -25px;
+}
+article span {
+  display: block;
+}
+
+article h3 {
+  font-weight: 500;
+  border: 1px solid var(--Almost-Black);
+  display: inline-block;
+  border-radius: 16px;
+  padding: 5px;
+  position: relative;
+  top: -25px;
+}
+.icon {
+  margin-bottom: 5rem;
+  margin-left: 6.8rem;
+}
+.icon img {
+  margin-left: 1.5rem;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0;
+    margin: 0;
+  }
+  .container {
+    background-image: url(/images/image-hero-mobile.png);
+    background-size: 96%;
+    background-position: 0 17%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100 1fr 100;
+    grid-gap: 9rem;
+    position: relative;
+  }
+  .nav-list {
+    display: none;
+  }
+  article {
+    position: relative;
+    top: 75%;
+    left: -16%;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  article h1 {
+    font-size: 2.5rem;
+  }
+  article span {
+    display: inline-block;
+  }
+  article p {
+    text-align: center;
+    /* position: relative; */
+    /* right: 10%; */
+  }
+  article h3 {
+    color: var(--Almost-White);
+    background-color: var(--Almost-Black);
+    margin-left: 30%;
+    border-radius: 13px;
+    padding: 15px;
+  }
+}
+
+.icon {
+  display: flex;
+  position: relative;
+  top: 90px;
+  left: -90px;
+}
+.icon img {
+  width: 50px;
+  height: 17px;
+  margin: 20px;
+}
