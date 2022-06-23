@@ -4,93 +4,73 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <nav class="allNav">
-        <div class="wrapper">
-          <div class="logo"><h2>snap</h2></div>
-
-          <div class="nav-list">
-            <div class="q-ans one">
-              <div class="question">
-                <h5>
-                  Features <img src="/images/icon-arrow-down.svg" alt="" />
-                </h5>
-              </div>
-              <div class="answer-title">
-                <div class="drop-asnwer">
-                  <img src="/images/icon-todo.svg" alt="" /> Todo List
-                </div>
-                <div class="drop-asnwer">
-                  <img src="/images/icon-calendar.svg" alt="" /> Calender
-                </div>
-                <div class="drop-asnwer">
-                  <img src="/images/icon-reminders.svg" alt="" /> Reminders
-                </div>
-                <div class="drop-asnwer">
-                  <img src="/images/icon-planning.svg" alt="" /> Planning
-                </div>
-              </div>
-            </div>
-
-            <div class="q-ans two">
-              <div class="question">
-                <h5>
-                  Company <img src="/images/icon-arrow-down.svg" alt="" />
-                </h5>
-              </div>
-
-              <div class="answer-title">
-                <div class="drop-asnwer">History</div>
-                <div class="drop-asnwer">Our Team</div>
-                <div class="drop-asnwer">Blog</div>
-              </div>
-            </div>
-
-            <!-- <div class="q-ans3"> -->
-            <div class="outter-wrapper">
-              <div class="links">
-                <h6><a href="#">Careers</a></h6>
-              </div>
-              <div class="links">
-                <h6><a href="#">About</a></h6>
-              </div>
-            </div>
-            <div class="inner-wrapper">
-              <div class="links">
-                <h6><a href="#">Login</a></h6>
-              </div>
-              <div class="links">
-                <h6><a href="#">Register</a></h6>
-              </div>
-            </div>
-            <!-- </div> -->
+    <div class="topSections">
+      <div class="leftTop">
+        <h2><img src="/images/logo.svg" alt="" /></h2>
+        <div class="dropheader forFeature">
+          <h6 class="featuresDrop-down">
+            Features <img src="/images/icon-arrow-down.svg" alt="" />
+          </h6>
+          <div class="dropAnswer feature-drop-answer">
+            <ul>
+              <li><img src="/images/icon-todo.svg" alt="" /> Todo List</li>
+              <li><img src="/images/icon-calendar.svg" alt="" /> Calender</li>
+              <li><img src="/images/icon-reminders.svg" alt="" /> Reminder</li>
+              <li><img src="/images/icon-planning.svg" alt="" /> Planning</li>
+            </ul>
           </div>
         </div>
-      </nav>
 
-      <article>
-        <h1>
-          Make
-          <span>remote work</span>
-        </h1>
-        <p>
-          Get your team in sync, no matter your location. <br />
-          Streamline processes, create team rituals, and <br />
-          watch productivity soar.
-        </p>
-        <h3>Learn More</h3>
-      </article>
-      <div class="icon">
-        <img src="/images/client-databiz.svg" alt="" />
-        <img src="/images/client-audiophile.svg" alt="" />
-        <img src="/images/client-meet.svg" alt="" />
-        <img src="/images/client-maker.svg" alt="" />
+        <div class="dropheader forCompany">
+          <h6 class="comapanyDrop-down">
+            Company <img src="/images/icon-arrow-down.svg" alt="" />
+          </h6>
+          <div class="dropAnswer company-drop-answer">
+            <ul>
+              <li>History</li>
+              <li>Our Team</li>
+              <li>Blog</li>
+            </ul>
+          </div>
+        </div>
+        <div class="leftLinks">
+          <h6><a href="#">Careers</a></h6>
+          <h6><a href="#">About</a></h6>
+        </div>
+      </div>
+      <div class="rightTop">
+        <h6><a href="#">Login</a></h6>
+        <h6><a class="reg" href="#">Register</a></h6>
       </div>
     </div>
+    <div class="middleSection">
+      <h1>
+        Make <br />
+        remote work
+      </h1>
+      <p>
+        Get your team in sync, no matter your location. Streamline processes,
+        create team rituals, and watch productivity soar.
+      </p>
+      <h5>Learn More</h5>
+    </div>
+    <div class="iconSection">
+      <img src="/images/client-databiz.svg" alt="" />
+      <img src="/images/client-audiophile.svg" alt="" />
+      <img src="/images/client-meet.svg" alt="" />
+      <img src="/images/client-maker.svg" alt="" />
+    </div>
+
     <script src="/index.js"></script>
   </body>
 </html>
