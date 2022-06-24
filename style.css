@@ -17,15 +17,18 @@ a {
   color: hsl(0, 0%, 8%);
   cursor: pointer;
 }
+
 a:hover {
   font-weight: bolder;
 }
+
 h5,
 h6 {
   cursor: pointer;
 }
-.show{
-  display:block;
+
+.show {
+  display: block;
 }
 
 .topSections {
@@ -33,64 +36,78 @@ h6 {
   justify-content: space-between;
   font-size: large;
 }
+
 .leftTop {
   display: flex;
   margin: 0 0 0 30px;
 }
-.leftTop h6 {
-}
+
+/* no empty ruleset */
+/* .leftTop h6 {
+} */
+
 .leftTop h6:hover {
   font-weight: bolder;
 }
+
 .rightTop {
   display: flex;
 }
+
 .leftTop h2 {
   height: 40px;
 }
+
 .rightTop h6 {
   margin-right: 30px;
 }
+
 .featuresDrop-down {
   width: 70px;
   margin-left: 80px;
 }
+
 .comapanyDrop-down {
   width: 100px;
   margin-right: 30px;
 }
+
 .leftLinks {
   display: flex;
   position: relative;
   right: 20px;
 }
+
 .leftLinks h6 {
   margin-right: 50px;
 }
+
 .reg {
   border: 1px solid hsl(0, 0%, 8%);
   border-radius: 10px;
   padding: 7px 16px;
 }
+
 /* drop answers */
-.dropheader{
+.dropheader {
   /* position: relative; */
   display: inline-block;
 }
-.forCompany{
+
+.forCompany {
   margin-left: 30px;
 }
 
 .dropAnswer {
   border: 1px solid hsl(0, 0%, 90%);
   border-radius: 8%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   margin: auto 40px auto 0;
   position: absolute;
   z-index: 3;
   display: none;
-
 }
+
 .dropAnswer ul {
   padding: 0 25px;
 }
@@ -110,6 +127,7 @@ h6 {
   position: relative;
   bottom: 13px;
 }
+
 .middleSection h1 {
   display: inline-block;
   width: 50%;
@@ -117,10 +135,12 @@ h6 {
   margin-top: 0;
   margin-bottom: 21px;
 }
+
 .middleSection p {
   margin-top: 0;
   width: 30%;
 }
+
 .middleSection h5 {
   background-color: hsl(0, 0%, 8%);
   border-radius: 10px;
@@ -128,18 +148,21 @@ h6 {
   display: inline-block;
   padding: 7px 15px;
 }
+
 .middleSection h5:hover {
   background-color: hsl(0, 0%, 98%);
   border: solid hsl(0, 0%, 8%) 1px;
   color: hsl(0, 0%, 8%);
 }
+
 .iconSection {
   margin: 50px 0 100px 90px;
 }
+
 .iconSection img {
   margin-left: 25px;
 }
 
-@media screen(max-width: 800px) {
-  
+@media only screen and (max-width: 800px) {
+  /* media queries go here */
 }
