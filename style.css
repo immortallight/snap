@@ -28,7 +28,11 @@ h6 {
 }
 
 .show {
-  display: block;
+  /* i added the '!important' value so that
+  * the style rules you declared in the 'dropAnswer'
+  * class can be overwritten by this one.
+  */
+  display: block !important;
 }
 
 .topSections {

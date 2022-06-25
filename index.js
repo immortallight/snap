@@ -16,8 +16,10 @@ function displayFeaturesModal() {
   // a specific class, by running through a conditional statement
 
   if (!featuresModal.classList.contains("show")) {
+    console.log("show class added");
     featuresModal.classList.add("show");
   } else {
+    console.log("show class removed");
     featuresModal.classList.remove("show");
   }
 
@@ -28,5 +30,5 @@ featureNavItem.addEventListener(
   "click",
   // remeber how we talked about callback functions previously?
   // Now pass the callback function as an argument here
-  displayFeaturesModal()
+  displayFeaturesModal
 );
